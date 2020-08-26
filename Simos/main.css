@@ -1,0 +1,148 @@
+
+body{
+    background-color: black;
+    margin: 0px;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  top: 0;
+  width: 100%;
+  /*display: block;*/
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 10%;
+  font-family: sans-serif;
+  transition: 0.4s;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.backimg{
+  background-image: url(images/29313531_165170337626439_2678874624111935488_n.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 100%;
+  height: 400px;;
+  opacity: 2;
+}
+
+#content{
+  color: white;
+  background-color: #4d000c;
+  display: block;
+}
+
+.article{
+  color: white;
+  font-family: calibri;
+  text-align: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 17px;
+}
+
+#comdiv{
+  color: white;
+  font-family: calibri;
+  /*margin-right: 150px;
+  margin-left: 150px;*/
+  background-color: #4d000c;
+  display: block;
+}
+
+#footer{
+  width: 100%;
+  color: white;
+  height: 50px;
+  background-color: black;
+  font-family: calibri;
+  display: block;
+}
+
+.a1{
+  font-size: 15px;
+  padding: 15px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  float: left;
+}
+
+.wholepage{
+  max-width: 960px;
+  margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ .videoframe{
+display: block;
+margin-left: 220px;
+margin-right: 50px;
+padding-top: 20px;
+}
+
+.dfn{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 10px;
+}
+
+
+.mdiv{display: block;}
+
+.bookimg{
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 30px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding-top: 10px;
+    margin: 30px;
+}
+
+.column img {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bcolumn {
+    float: left;
+    width: auto;
+    padding-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: white;
+    font-family: calibri;
+    position: static;
+}
